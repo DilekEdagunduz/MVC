@@ -1,0 +1,23 @@
+﻿@using MVCContext.Models.ORM;
+@model List<Post>;
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Title</td>
+        <td>Content</td>
+      
+    </tr>
+
+  
+    @foreach (var item in @Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Title</td>
+            <td>@item.Content</td>
+
+
+        </tr>
+    }
+
+</table>

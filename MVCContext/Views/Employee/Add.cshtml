@@ -1,0 +1,31 @@
+﻿@model MVCContext.Models.ORM.Employee
+
+<form action ="/Employee/Add" method="post">
+    <div>
+        @Html.LabelFor(x => x.Name)
+        @Html.TextBoxFor(x => x.Name)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.Surname)
+        @Html.TextBoxFor(x => x.Surname)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Email)
+        @Html.TextBoxFor(x => x.Email)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Phone)
+        @Html.TextBoxFor(x => x.Phone)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Adress)
+        @Html.TextBoxFor(x => x.Adress)
+    </div>
+    <div>
+        <input type= "submit" name="Ekle" />
+
+    </div>
+</form>

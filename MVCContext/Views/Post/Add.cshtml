@@ -1,0 +1,16 @@
+﻿@model MVCContext.Models.ORM.Post
+<form action="/Post/Add" method="post">
+    <div>
+        @Html.LabelFor(x => x.Title)
+        @Html.TextBoxFor(x => x.Title)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Content)
+        @Html.TextBoxFor(x => x.Content)
+    </div>
+
+    <div>
+       <input type= "submit" name="Ekle" />
+    </div>
+</form>

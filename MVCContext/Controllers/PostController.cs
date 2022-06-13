@@ -6,12 +6,7 @@ namespace MVCContext.Controllers
     public class PostController : Controller
     {
         SiemensContext siemensContext = new SiemensContext();
-        [HttpGet]
-        public IActionResult Add()
-        {
-         
-            return View();
-        }
+    
 
         [HttpGet]
         public IActionResult PostList()
@@ -19,6 +14,12 @@ namespace MVCContext.Controllers
             List<Post> posts = siemensContext.Posts.ToList();
 
             return View(posts);
+        }
+        [HttpGet]
+        public IActionResult Add()
+        {
+
+            return View();
         }
         [HttpPost]
         public IActionResult Add (Post post)

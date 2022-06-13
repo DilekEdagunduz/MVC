@@ -16,6 +16,6 @@ namespace MVCContext.Models.ORM
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Post> Posts { get; set; }
 
-
+        public DbSet<Book> Books { get; set; }
     }
 }

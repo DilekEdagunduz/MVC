@@ -1,0 +1,29 @@
+﻿@model MVCContext.Models.ORM.Restaurant
+<form action="/Restaurant/Add" method="post">
+    <div>
+        @Html.LabelFor(x => x.Name)
+        @Html.TextBoxFor(x => x.Name)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Address)
+        @Html.TextBoxFor(x => x.Address)
+    </div>   
+    <div>
+        @Html.LabelFor(x => x.Phone)
+        @Html.TextBoxFor(x => x.Phone)
+    </div>    
+    <div>
+        @Html.LabelFor(x => x.City)
+        @Html.TextAreaFor(x => x.City)
+    </div>
+
+    <div>
+        @Html.LabelFor(x => x.Region)
+        @Html.TextBoxFor(x => x.Region)
+    </div>
+
+    <div>
+       <input type= "submit" name="Ekle" />
+    </div>
+</form>

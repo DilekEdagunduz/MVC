@@ -17,5 +17,6 @@ namespace MVCContext.Models.ORM
         public DbSet<Post> Posts { get; set; }
 
         public DbSet<Book> Books { get; set; }
+        public DbSet<Restaurant> Restaurants { get; set; }
     }
 }

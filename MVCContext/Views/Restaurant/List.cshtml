@@ -1,0 +1,23 @@
+﻿   <table>
+
+     <tr>
+       <th>Id</th>
+       <th>Name</th>
+       <th>Phone</th>
+       <th>City</th>
+       <th>Region</th>
+     </tr>
+      
+     @foreach (var item in Model)
+     {
+         <tr>
+             <td>@item.Id</td>
+             <td>@item.Name</td>
+             <td>@item.Phone</td>
+             <td>@item.City</td>
+             <td>@item.Region</td>
+             <td><input type ="button" onclick="location.href='/restaurant/update/@item.Id';" value ="Update"/></td>
+             <td><input type ="button" onclick="location.href='/restaurant/delete/@item.Id';" value ="Delete"/></td>
+         </tr>
+     }
+   </table>

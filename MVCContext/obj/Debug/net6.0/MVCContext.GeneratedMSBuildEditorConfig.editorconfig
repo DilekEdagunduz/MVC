@@ -58,3 +58,23 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/z004jk1r/source/repos/MVCContext/MVCContext/Views/Post/PostList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxQb3N0TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/z004jk1r/source/repos/MVCContext/MVCContext/Views/Restaurant/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/z004jk1r/source/repos/MVCContext/MVCContext/Views/Restaurant/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/z004jk1r/source/repos/MVCContext/MVCContext/Views/Restaurant/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/z004jk1r/source/repos/MVCContext/MVCContext/Views/Restaurant/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/z004jk1r/source/repos/MVCContext/MVCContext/Views/Restaurant/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
